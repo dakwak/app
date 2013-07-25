@@ -23,7 +23,7 @@
             },
             "detail_page" : [
                 "./public/images/example.png"
-            ],
+            ]
         },
         "interface": [
             {

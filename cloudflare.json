@@ -6,7 +6,6 @@
     "category": "search engine optimization",
     "account": {
         "callback_url": "http://dakwak.com/api",
-        "user_fields": ["email"]
     },
     "config":{
         "details":{

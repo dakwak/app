@@ -2,7 +2,7 @@
     "main":"public/javascripts/dakwak.js",
     "name":"Dakwak",
     "description": "Translate your website in no time and reach new markets.",
-    "version": "0.0.1b",
+    "version": "0.0.2b",
     "category": "search engine optimization",
     "account": {
         "callback_url": "http://dakwak.com/api",

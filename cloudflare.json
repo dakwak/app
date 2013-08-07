@@ -5,7 +5,7 @@
     "version": "0.0.2b",
     "category": "search engine optimization",
     "account": {
-        "callback_url": "http://dakwak.com/api",
+        "callback_url": "http://dakwak.com/api"
     },
     "config":{
         "details":{

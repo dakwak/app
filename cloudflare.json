@@ -12,7 +12,7 @@
             "Language": "English",
             "Price": "Free to install.",
             "Restrictions": "None",
-            "TOS": "<a href='https://dakwak.com/tos' target='_blank'>Terms of use</a>"
+            "TOS": "https://dakwak.com/tos"
         },
         "assets":{
             "logos" : {
@@ -24,13 +24,6 @@
             ]
         },
         "interface": [
-            {
-            	"id": "email",
-                "type": "string",
-                "name": "E-mail",
-                "description": "Please submit your email",
-                "domain_request": true
-            },
             {
                 "id": "origial_language",            	
                 "type": "select",

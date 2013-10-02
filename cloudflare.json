@@ -1,11 +1,12 @@
 {
-    "main":"public/javascripts/dakwak.js",
     "name":"Dakwak",
     "description": "Translate your website in no time and reach new markets.",
-    "version": "0.0.3b",
+    "version": "0.0.4b",
     "category": "search engine optimization",
+    "main":"public/javascripts/dakwak.js",
     "account": {
-        "callback_url": "http://dakwak.com/api"
+        "callback_url": "http://f3.f.us.dakwak.com",
+        "user_fields": ["email"]
     },
     "config":{
         "details":{
@@ -25,7 +26,7 @@
         },
         "interface": [
             {
-                "id": "origial_language",            	
+                "id": "from_lang",
                 "type": "select",
                 "name": "Website language",
                 "description": "Your current website language",
@@ -254,7 +255,7 @@
                 "domain_request": true
             },            
             {
-                "id": "target_language",            	
+                "id": "to_lang",
                 "type": "select",
                 "name": "Target language",
                 "description": "The language you want to translate your website to",

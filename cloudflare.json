@@ -5,7 +5,7 @@
     "category": "search engine optimization",
     "main":"public/javascripts/dakwak.js",
     "account": {
-        "callback_url": "http://f3.f.us.dakwak.com",
+        "callback_url": "http://widget.dakwak.com",
         "user_fields": ["email"]
     },
     "config":{

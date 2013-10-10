@@ -2,7 +2,7 @@
 
 Translate and localize your website and allow people from around the world to find your business
 
-![world](https://dakwak.com/assets/image1.png "")
+![world](https://dakwak.com/assets/image1_small.png "")
 
 
 

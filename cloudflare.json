@@ -1,12 +1,29 @@
 {
     "name":"Dakwak",
     "description": "Translate your website in no time and reach new markets.",
-    "version": "0.0.6b",
+    "version": "0.0.7b",
     "category": "search engine optimization",
     "main":"public/javascripts/dakwak.js",
     "account": {
         "callback_url": "http://widget.dakwak.com",
         "user_fields": ["email"]
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Business",
+                "price": "50"
+            },
+            {
+                "name" : "Premium",
+                "price" : "150"
+            },
+            {
+                "name" : "Unlimited",
+                "price" : "500"
+            }
+        ]
     },
     "config":{
         "details":{

@@ -11,6 +11,11 @@
     "billing": {
         "type": "zone",
         "plans":[
+	    {
+                "name" : "Free",
+                "price": "0"
+            },
+
             {
                 "name" : "Business",
                 "price": "50"

@@ -1,7 +1,7 @@
 {
     "name":"Dakwak",
     "description": "Translate your website in no time and reach new markets.",
-    "version": "0.0.8b",
+    "version": "0.0.9b",
     "category": "search engine optimization",
     "main":"public/javascripts/dakwak.js",
     "account": {

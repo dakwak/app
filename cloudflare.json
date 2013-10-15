@@ -8,28 +8,6 @@
         "callback_url": "http://widget.dakwak.com",
         "user_fields": ["email"]
     },
-    "billing": {
-        "type": "zone",
-        "plans":[
-	    {
-                "name" : "Free",
-                "price": "0"
-            },
-
-            {
-                "name" : "Business",
-                "price": "50"
-            },
-            {
-                "name" : "Premium",
-                "price" : "150"
-            },
-            {
-                "name" : "Unlimited",
-                "price" : "500"
-            }
-        ]
-    },
     "config":{
         "details":{
             "Language": "English",

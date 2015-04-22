@@ -1,17 +1,38 @@
 {
     "name":"Dakwak",
-    "description": "Translate your website in no time and reach new markets.",
-    "version": "0.0.9b",
+    "description": "Localize your website seamlessly and reach new markets.",
+    "version": "0.1.0",
     "category": "search engine optimization",
     "main":"public/javascripts/dakwak.js",
     "account": {
         "callback_url": "http://widget.dakwak.com",
         "user_fields": ["email"]
     },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Startup",
+                "price": "14.99"
+            },
+            {
+                "name" : "Business",
+                "price": "59.99"
+            },
+            {
+                "name" : "Premium",
+                "price" : "249.99"
+            },
+            {
+                "name" : "Enterprise",
+                "price" : "599.99"
+            }
+        ]
+    },
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Free to install.",
+            "Price": "14.99.",
             "Restrictions": "None",
             "TOS": "https://dakwak.com/tos"
         },
@@ -28,9 +49,9 @@
             {
                 "id": "from_lang",
                 "type": "select",
-                "name": "Website language",
-                "description": "Your current website language",
-                "options": [{"label":"Afrikaans", "value":"af"}, {"label":"Albanian", "value":"sq"}, {"label":"Arabic", "value":"ar"}, {"label":"Belarusian", "value":"be"}, {"label":"Bulgarian", "value":"bg"}, {"label":"Catalan", "value":"ca"}, {"label":"Chinese (Simplified)", "value":"zh-CN"}, {"label":"Chinese (Traditional)", "value":"zh-TW"}, {"label":"Croatian", "value":"hr"}, {"label":"Czech", "value":"cs"}, {"label":"Danish", "value":"da"}, {"label":"Dutch", "value":"nl"}, {"label":"English", "value":"en"}, {"label":"Estonian", "value":"et"}, {"label":"Filipino", "value":"tl"}, {"label":"Finnish", "value":"fi"}, {"label":"French", "value":"fr"}, {"label":"French (Canada)", "value":"fr-CA"}, {"label":"Galician", "value":"gl"}, {"label":"German", "value":"de"}, {"label":"Greek", "value":"el"}, {"label":"Hebrew", "value":"iw"}, {"label":"Hindi", "value":"hi"}, {"label":"Hungarian", "value":"hu"}, {"label":"Icelandic", "value":"is"}, {"label":"Indonesian", "value":"id"}, {"label":"Irish", "value":"ga"}, {"label":"Italian", "value":"it"}, {"label":"Japanese", "value":"ja"}, {"label":"Korean", "value":"ko"}, {"label":"Latvian", "value":"lv"}, {"label":"Lithuanian", "value":"lt"}, {"label":"Macedonian", "value":"mk"}, {"label":"Malay", "value":"ms"}, {"label":"Maltese", "value":"mt"}, {"label":"Persian", "value":"fa"}, {"label":"Polish", "value":"pl"}, {"label":"Portuguese (Brazil)", "value":"pt-BR"}, {"label":"Portuguese (Europe)", "value":"pt-PT"}, {"label":"Romanian", "value":"ro"}, {"label":"Russian", "value":"ru"}, {"label":"Serbian", "value":"sr"}, {"label":"Slovak", "value":"sk"}, {"label":"Slovenian", "value":"sl"}, {"label":"Spanish", "value":"es"}, {"label":"Spanish (Latin America)", "value":"es-LA"}, {"label":"Swahili", "value":"sw"}, {"label":"Swedish", "value":"sv"}, {"label":"Thai", "value":"th"}, {"label":"Turkish", "value":"tr"}, {"label":"Ukrainian", "value":"uk"}, {"label":"Urdu", "value":"ur"}, {"label":"Vietnamese", "value":"vi"}, {"label":"Welsh", "value":"cy"}, {"label":"Yiddish", "value":"yi"}],
+                "name": "Website Original language",
+                "description": "Your current website main language",
+                "options": [{"label":"Afrikaans", "value":"af"}, {"label":"Albanian", "value":"sq"}, {"label":"Arabic", "value":"ar"}, {"label":"Belarusian", "value":"be"}, {"label":"Bulgarian", "value":"bg"}, {"label":"Catalan", "value":"ca"}, {"label":"Chinese (Simplified)", "value":"zh-CN"}, {"label":"Chinese (Traditional)", "value":"zh-TW"}, {"label":"Croatian", "value":"hr"}, {"label":"Czech", "value":"cs"}, {"label":"Danish", "value":"da"}, {"label":"Dutch", "value":"nl"}, {"label":"English", "value":"en"}, {"label":"Estonian", "value":"et"}, {"label":"Filipino", "value":"tl"}, {"label":"Finnish", "value":"fi"}, {"label":"French", "value":"fr"}, {"label":"French (Canada)", "value":"fr"}, {"label":"Galician", "value":"gl"}, {"label":"German", "value":"de"}, {"label":"Greek", "value":"el"}, {"label":"Hebrew", "value":"iw"}, {"label":"Hindi", "value":"hi"}, {"label":"Hungarian", "value":"hu"}, {"label":"Icelandic", "value":"is"}, {"label":"Indonesian", "value":"id"}, {"label":"Irish", "value":"ga"}, {"label":"Italian", "value":"it"}, {"label":"Japanese", "value":"ja"}, {"label":"Korean", "value":"ko"}, {"label":"Latvian", "value":"lv"}, {"label":"Lithuanian", "value":"lt"}, {"label":"Macedonian", "value":"mk"}, {"label":"Malay", "value":"ms"}, {"label":"Maltese", "value":"mt"}, {"label":"Persian", "value":"fa"}, {"label":"Polish", "value":"pl"}, {"label":"Portuguese (Brazil)", "value":"pt"}, {"label":"Portuguese (Europe)", "value":"pt"}, {"label":"Romanian", "value":"ro"}, {"label":"Russian", "value":"ru"}, {"label":"Serbian", "value":"sr"}, {"label":"Slovak", "value":"sk"}, {"label":"Slovenian", "value":"sl"}, {"label":"Spanish", "value":"es"}, {"label":"Spanish (Latin America)", "value":"es"}, {"label":"Swahili", "value":"sw"}, {"label":"Swedish", "value":"sv"}, {"label":"Thai", "value":"th"}, {"label":"Turkish", "value":"tr"}, {"label":"Ukrainian", "value":"uk"}, {"label":"Urdu", "value":"ur"}, {"label":"Vietnamese", "value":"vi"}, {"label":"Welsh", "value":"cy"}, {"label":"Yiddish", "value":"yi"}],
                 "domain_request": true
             },
             {
@@ -38,7 +59,7 @@
                 "type": "select",
                 "name": "Target language",
                 "description": "The language you want to translate your website to",
-                "options": [{"label":"Afrikaans", "value":"af"}, {"label":"Albanian", "value":"sq"}, {"label":"Arabic", "value":"ar"}, {"label":"Belarusian", "value":"be"}, {"label":"Bulgarian", "value":"bg"}, {"label":"Catalan", "value":"ca"}, {"label":"Chinese (Simplified)", "value":"zh-CN"}, {"label":"Chinese (Traditional)", "value":"zh-TW"}, {"label":"Croatian", "value":"hr"}, {"label":"Czech", "value":"cs"}, {"label":"Danish", "value":"da"}, {"label":"Dutch", "value":"nl"}, {"label":"English", "value":"en"}, {"label":"Estonian", "value":"et"}, {"label":"Filipino", "value":"tl"}, {"label":"Finnish", "value":"fi"}, {"label":"French", "value":"fr"}, {"label":"French (Canada)", "value":"fr-CA"}, {"label":"Galician", "value":"gl"}, {"label":"German", "value":"de"}, {"label":"Greek", "value":"el"}, {"label":"Hebrew", "value":"iw"}, {"label":"Hindi", "value":"hi"}, {"label":"Hungarian", "value":"hu"}, {"label":"Icelandic", "value":"is"}, {"label":"Indonesian", "value":"id"}, {"label":"Irish", "value":"ga"}, {"label":"Italian", "value":"it"}, {"label":"Japanese", "value":"ja"}, {"label":"Korean", "value":"ko"}, {"label":"Latvian", "value":"lv"}, {"label":"Lithuanian", "value":"lt"}, {"label":"Macedonian", "value":"mk"}, {"label":"Malay", "value":"ms"}, {"label":"Maltese", "value":"mt"}, {"label":"Persian", "value":"fa"}, {"label":"Polish", "value":"pl"}, {"label":"Portuguese (Brazil)", "value":"pt-BR"}, {"label":"Portuguese (Europe)", "value":"pt-PT"}, {"label":"Romanian", "value":"ro"}, {"label":"Russian", "value":"ru"}, {"label":"Serbian", "value":"sr"}, {"label":"Slovak", "value":"sk"}, {"label":"Slovenian", "value":"sl"}, {"label":"Spanish", "value":"es"}, {"label":"Spanish (Latin America)", "value":"es-LA"}, {"label":"Swahili", "value":"sw"}, {"label":"Swedish", "value":"sv"}, {"label":"Thai", "value":"th"}, {"label":"Turkish", "value":"tr"}, {"label":"Ukrainian", "value":"uk"}, {"label":"Urdu", "value":"ur"}, {"label":"Vietnamese", "value":"vi"}, {"label":"Welsh", "value":"cy"}, {"label":"Yiddish", "value":"yi"}],
+                "options": [{"label":"Afrikaans", "value":"af"}, {"label":"Albanian", "value":"sq"}, {"label":"Arabic", "value":"ar"}, {"label":"Belarusian", "value":"be"}, {"label":"Bulgarian", "value":"bg"}, {"label":"Catalan", "value":"ca"}, {"label":"Chinese (Simplified)", "value":"zh-CN"}, {"label":"Chinese (Traditional)", "value":"zh-TW"}, {"label":"Croatian", "value":"hr"}, {"label":"Czech", "value":"cs"}, {"label":"Danish", "value":"da"}, {"label":"Dutch", "value":"nl"}, {"label":"English", "value":"en"}, {"label":"Estonian", "value":"et"}, {"label":"Filipino", "value":"tl"}, {"label":"Finnish", "value":"fi"}, {"label":"French", "value":"fr"}, {"label":"French (Canada)", "value":"fr"}, {"label":"Galician", "value":"gl"}, {"label":"German", "value":"de"}, {"label":"Greek", "value":"el"}, {"label":"Hebrew", "value":"iw"}, {"label":"Hindi", "value":"hi"}, {"label":"Hungarian", "value":"hu"}, {"label":"Icelandic", "value":"is"}, {"label":"Indonesian", "value":"id"}, {"label":"Irish", "value":"ga"}, {"label":"Italian", "value":"it"}, {"label":"Japanese", "value":"ja"}, {"label":"Korean", "value":"ko"}, {"label":"Latvian", "value":"lv"}, {"label":"Lithuanian", "value":"lt"}, {"label":"Macedonian", "value":"mk"}, {"label":"Malay", "value":"ms"}, {"label":"Maltese", "value":"mt"}, {"label":"Persian", "value":"fa"}, {"label":"Polish", "value":"pl"}, {"label":"Portuguese (Brazil)", "value":"pt"}, {"label":"Portuguese (Europe)", "value":"pt"}, {"label":"Romanian", "value":"ro"}, {"label":"Russian", "value":"ru"}, {"label":"Serbian", "value":"sr"}, {"label":"Slovak", "value":"sk"}, {"label":"Slovenian", "value":"sl"}, {"label":"Spanish", "value":"es"}, {"label":"Spanish (Latin America)", "value":"es"}, {"label":"Swahili", "value":"sw"}, {"label":"Swedish", "value":"sv"}, {"label":"Thai", "value":"th"}, {"label":"Turkish", "value":"tr"}, {"label":"Ukrainian", "value":"uk"}, {"label":"Urdu", "value":"ur"}, {"label":"Vietnamese", "value":"vi"}, {"label":"Welsh", "value":"cy"}, {"label":"Yiddish", "value":"yi"}],
                 "domain_request": true
             }
         ]

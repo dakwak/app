@@ -1,22 +1,23 @@
-# Reach The Global Markets
+# Localize your business website professionally and efficiently.
 
-Translate and localize your website and allow people from around the world to find your business
+
+dakwak, a website localization platform that enables you to launch multilingual websites. No coding required, dakwak works on top of your original website and you can fully customize it.
 
 ![world](https://dakwak.com/assets/image1_small.png "")
 
 
 
-### SEO Friendly
+### SEARCH ENGINE VISIBLITY
  
-Your translated website will be search engine visible in 60 languages, allowing people who search in their native language to find your translated website in the search engine results. This means more leads, more customers, and more sales.
+Expose your localized websites to search engines and allow people to find your business when searching in their native language.
 
 
-### Zero Lines of Code
+### SEAMLESS INTEGRATION
 
-Live in 60 seconds, hosted on our servers, fully functional, and SEO friendly without writing a single line of code. Furthermore, you can replace videos, images, CSS files, Javascripts, and much more for each language in order to deliver a truly localized experience of your website.
+All you have to do is to link your domain to our cloud. And we will be able to serve your localized website on that domain.
 
 
-### Quality Translation
+### FULL CUSTOMIZATION
 
-Machine translation comes for free with your subscription. And if you want to improve the quality, you can edit the translation directly on our platform, or with a single click of a button have it professionally translated and automatically published on your translated website.
+You can customize every part of your localized website including textual-content, images, css and javascript.
 

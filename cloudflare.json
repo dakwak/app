@@ -1,7 +1,7 @@
 {
     "name":"Dakwak",
-    "description": "Localize your website seamlessly and reach new markets.",
-    "version": "0.1.2",
+    "description": "Localize your website seamlessly and reach new markets",
+    "version": "1.0.0",
     "category": "search engine optimization",
     "main":"public/javascripts/dakwak.js",
     "account": {
